@@ -15,6 +15,8 @@ def koch_curve(level, length):
     None.
 
     """
+    # Comment out if you want turtle to draw slower
+    speed(0)
     # create koch curve
     def helper(level,length):
         # Fractal is a horizontal line
@@ -40,3 +42,11 @@ def koch_curve(level, length):
             helper(level-1,length/3)
     
     helper(level,length)
+    
+
+def koch_snow_flake(level,length):
+    koch_curve(level,length)
+    rt(120)
+    koch_curve(level,length)
+    rt(120)
+    koch_curve(level,length)
