@@ -8,5 +8,7 @@ A pattern that repeats itself to create a unique structure
 ### This repository contains:
 ----------------------------------
 - Peano Curve
+- Koch Curve
 - Sierpiński Triangle
-- Sierpiński arrowhead
+- Sierpiński Arrowhead
+
